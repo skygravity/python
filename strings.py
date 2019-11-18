@@ -40,9 +40,11 @@
         # print(msg)
 
 
-#-------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------- 2019 11 17
+# String Functions and Methods
+# ---------------------------------------------------------------------------------------------------------------
 
-course = 'python for beginners'
+# course = 'python for beginners'
 # Calculates number of characters in the string
 # len() is general purpose function
 # course. -> is function, but we reffer it as methods
@@ -54,10 +56,63 @@ course = 'python for beginners'
 # print(course.upper()) # Makes all letters capital -> PYTHON FOR BEGINNERS
 # print(course.capitalize()) # Starts from Capital letter -> Python for beginners
 # print(course.find('h')) # finds string symbol and shows like index -> 3
-print(course.replace('beginners', 'Absolute Beginners'))
+# print(course.replace('beginners', 'Absolute Beginners'))
 
 # https://www.youtube.com/watch?v=_uQrJ0TkZlc 45:48
 
+# This will return boolean true of false. there is 'python' in course string. Define and 'in' methods is different, define searches index of haracter; 'in' is boolean.
+
+# course = 'python for beginners'
+# print('@' in course)
 
 
+# --------------------------------------------------------------------------------------------------- 2019 11 18
+# Integers and Floats 48:54
+# ---------------------------------------------------------------------------------------------------------------
 
+# Integer 10
+# Float 10.123
+
+# print(10 + 3)
+# print(10 - 3)
+# print(10 * 3)
+# print(10 / 3)
+# print(10 // 3)
+# print(10 | 3)
+# print(10 ** 3)
+# print(10 % 3)
+# print(10 ^ 3)
+
+# We can increment integers
+# x = 10
+# x = 10 + 3
+# print(x)
+# result x = 13
+
+# Same - augmented asigment operator
+# x = 10
+# x += 3
+# print(x)
+# same result x = 13
+
+# x = 10 + 3 * 2
+# print(x)
+# result is 16
+
+# x = 10 + 3 * 2 ** 2
+# print(x)
+# result is 22
+
+# x = 2.9
+# print(round(x))
+# result 3
+
+# print(abs(-2.8))      Absolute function - will return positive number
+# result 2.8
+
+# import math
+# print(math.ceil(2.9))
+
+# --------------------------------------------------------------------------------------------------- 2019 11 18
+# If statements
+# ---------------------------------------------------------------------------------------------------------------
