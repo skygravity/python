@@ -128,14 +128,46 @@
 #       it's a lovely day
 
 #  We need to define boolean
-is_hot = False
+# is_hot = True
+# is_cold = False
 
-if is_hot:
-        print("It's a hot day")
-        print("Drink plenty of water")
+# if is_hot:
+#         print("It's a hot day")
+#         print("Drink plenty of water")
+# elif is_cold:
+#         print("Is cold outside")
+#         print("It's a cold day\nwear warm clothes")
+# else:        
+#         print("Enjoy your day")
+# print("Lucky")
+
+#excersise 
+
+# Price of a house is  1M$
+#If buyes has good credit,
+#they need to put down 10%
+#otherwise
+#they need to put down 20%
+
+# good_credit = False    BAD WAY
+# bad_credit = True
+# put_1 = 10
+# put_2 = 20
+
+# if good_credit:
+#         print("Down ", put_1)
+# elif bad_credit:
+#         print("Down ", put_2)
+# print("Thank You")
+
+price = 78000
+has_good_credit = False
+
+if has_good_credit:
+        down_payment = 0.1 * price
 else:
-        print("It's a cold day\nwear warm clothes")
-print("Enjoy your day")
+        down_payment = 0.2 * price
+print(f"Down payment: {down_payment}")
 
 # --------------------------------------------------------------------------------------------------- 2019 11 19
 # If statements
