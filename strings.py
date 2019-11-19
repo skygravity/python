@@ -112,7 +112,31 @@
 
 # import math
 # print(math.ceil(2.9))
+# 3
 
 # --------------------------------------------------------------------------------------------------- 2019 11 18
+# If statements
+# ---------------------------------------------------------------------------------------------------------------
+
+# if it's hot day
+#       It's a Hot day
+#       Drink plenty of water
+# otherwise if it's cold
+#       its'a cold day
+#       wear warm clothes
+# otherwise
+#       it's a lovely day
+
+#  We need to define boolean
+is_hot = False
+
+if is_hot:
+        print("It's a hot day")
+        print("Drink plenty of water")
+else:
+        print("It's a cold day\nwear warm clothes")
+print("Enjoy your day")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 19
 # If statements
 # ---------------------------------------------------------------------------------------------------------------
