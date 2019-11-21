@@ -190,10 +190,55 @@
 # If applicant has high income and doesnt have a criminal record then 
 #         Eligible for loan
 
-good_credit = True
-criminal_record = True
+# good_credit = True
+# criminal_record = True
 
-if good_credit and not criminal_record:
-        print("aeligible for loan")
-else:
-        print("Not eligible")
+# if good_credit and not criminal_record:
+#         print("aeligible for loan")
+# else:
+#         print("Not eligible")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 21
+# Comparison Operators 
+# ---------------------------------------------------------------------------------------------------------------
+
+# if temperature is > than 30
+#         its a hot day
+# otherwise if its less than 10
+#         its a cold day
+# otherwise
+#         its neither hot nor cold
+
+# temperature = int(input())
+
+# if temperature > 30:
+#         print("its hot day")
+# elif temperature < 10:
+#         print("its a cold day")
+# elif temperature < 30 and temperature > 10:
+#         print("its not cold, not hot")
+
+# weight = input("What is your weight?: ")
+# kind = input("What kind?: ")
+# kg = str('k')
+# lbs = str('l')
+# if kind is kg and not lbs:
+#         print(f"Your weight is {weight} kg")
+# else:
+#         print(f"Your weight is {weight} punds")
+
+# weight = int(input("Weight: "))
+# unit = input("(L)bs or (k)g: ")
+# if unit.upper() == "L":
+#         converted = weight * 0.45
+#         print(f"Your weight is {converted} kg")
+# else:
+#         converted = int(weight / 0.45)
+#         print(f"You are {converted} pounds")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 21
+# While Loops 
+# ---------------------------------------------------------------------------------------------------------------
+
+# https://www.youtube.com/watch?v=_uQrJ0TkZlc 1:20:50
+
