@@ -160,15 +160,40 @@
 #         print("Down ", put_2)
 # print("Thank You")
 
-price = 78000
-has_good_credit = False
+# price = 78000
+# has_good_credit = False
 
-if has_good_credit:
-        down_payment = 0.1 * price
-else:
-        down_payment = 0.2 * price
-print(f"Down payment: {down_payment}")
+# if has_good_credit:
+#         down_payment = 0.1 * price
+# else:
+#         down_payment = 0.2 * price
+# print(f"Down payment: {down_payment}")
 
-# --------------------------------------------------------------------------------------------------- 2019 11 19
-# If statements
+# --------------------------------------------------------------------------------------------------- 2019 11 21
+# Logical Operators 
 # ---------------------------------------------------------------------------------------------------------------
+
+# We use it when we have multiple conditions. logical operators: AND; OR
+
+# If applicant has high income and good credit then 
+#         Eligible for loan
+
+# good_credit = True
+# hight_income = False
+
+# if good_credit or hight_income:
+#         print("aeligible for loan")
+# else:
+#         print("Not eligible")
+
+
+# If applicant has high income and doesnt have a criminal record then 
+#         Eligible for loan
+
+good_credit = True
+criminal_record = True
+
+if good_credit and not criminal_record:
+        print("aeligible for loan")
+else:
+        print("Not eligible")
