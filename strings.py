@@ -242,3 +242,21 @@
 
 # https://www.youtube.com/watch?v=_uQrJ0TkZlc 1:20:50
 
+# i = 1
+# while i <= 5:
+#         print('*' * i)
+#         i = i + 1
+# print("Done")
+
+secret_number = 9
+guess_count = 0
+guess_limit = 3
+while guess_count < guess_limit:
+        guess = int(input("Guess: "))
+        guess_count += 1
+        if guess == secret_number:
+                print(f"You won, secret number is {secret_number}")
+                break
+else:
+        print(f"You failed, secret number is {secret_number}")
+        
