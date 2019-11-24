@@ -294,12 +294,22 @@
 # in this case we need to store boolean - if car is started true or false
 
 command = ""
+started = False
+stoped = False
 while True:
         command = input("> ").lower()
         if command == "start":
-                print("Car started...")
+                if started:
+                        print("car already started")
+                else:
+                        started = True
+                        print("Car started...")
         elif command == "stop":
-                print("Car stoped...")        
+                if stoped:
+                        print("Car already stoped")
+                else:
+                        stoped = True
+                        print("Car stoped...")        
         elif command == "help":
                 print("help menu")
         elif command == "quit":
