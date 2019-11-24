@@ -295,7 +295,6 @@
 
 command = ""
 started = False
-stoped = False
 while True:
         command = input("> ").lower()
         if command == "start":
@@ -305,10 +304,10 @@ while True:
                         started = True
                         print("Car started...")
         elif command == "stop":
-                if stoped:
+                if not started: 
                         print("Car already stoped")
                 else:
-                        stoped = True
+                        started = False
                         print("Car stoped...")        
         elif command == "help":
                 print("help menu")
