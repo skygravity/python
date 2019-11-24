@@ -248,15 +248,61 @@
 #         i = i + 1
 # print("Done")
 
-secret_number = 9
-guess_count = 0
-guess_limit = 3
-while guess_count < guess_limit:
-        guess = int(input("Guess: "))
-        guess_count += 1
-        if guess == secret_number:
-                print(f"You won, secret number is {secret_number}")
-                break
-else:
-        print(f"You failed, secret number is {secret_number}")
+# secret_number = 9
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#         guess = int(input("Guess: "))
+#         guess_count += 1
+#         if guess == secret_number:
+#                 print(f"You won, secret number is {secret_number}")
+#                 break
+# else:
+#         print(f"You failed, secret number is {secret_number}")
         
+# --------------------------------------------------------------------------------------------------- 2019 11 23
+# Car Game 
+# ---------------------------------------------------------------------------------------------------------------
+
+# Car game, 
+# print help -> we get commands for game explained
+#         start - to start the Car
+#         stop - to stop the Car
+#         quit - to exit
+
+#'''start - to start the car; stop - to stop the car; quit - to exit '''
+# command = ""
+# while True:
+#         command = input("> ").lower()
+#         if command == "start":
+#                 print("Car started...")
+#         elif command == "stop":
+#                 print("Car stoped...")        
+#         elif command == "help":
+#                 print("help menu")
+#         elif command == "quit":
+#                 break
+#         else:
+#                 print("No comprendo amigo")
+        
+
+# --------------------------------------------------------------------------------------------------- 2019 11 23
+# Car Game 2
+# ---------------------------------------------------------------------------------------------------------------
+
+# condition if car is already started - change message if str is start - > car is already started
+# in this case we need to store boolean - if car is started true or false
+
+command = ""
+while True:
+        command = input("> ").lower()
+        if command == "start":
+                print("Car started...")
+        elif command == "stop":
+                print("Car stoped...")        
+        elif command == "help":
+                print("help menu")
+        elif command == "quit":
+                break
+        else:
+                print("No comprendo amigo")
