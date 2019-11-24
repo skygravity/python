@@ -286,32 +286,73 @@
 #                 print("No comprendo amigo")
         
 
-# --------------------------------------------------------------------------------------------------- 2019 11 23
+# --------------------------------------------------------------------------------------------------- 2019 11 24
 # Car Game 2
 # ---------------------------------------------------------------------------------------------------------------
 
 # condition if car is already started - change message if str is start - > car is already started
 # in this case we need to store boolean - if car is started true or false
 
-command = ""
-started = False
-while True:
-        command = input("> ").lower()
-        if command == "start":
-                if started:
-                        print("car already started")
-                else:
-                        started = True
-                        print("Car started...")
-        elif command == "stop":
-                if not started: 
-                        print("Car already stoped")
-                else:
-                        started = False
-                        print("Car stoped...")        
-        elif command == "help":
-                print("help menu")
-        elif command == "quit":
-                break
-        else:
-                print("No comprendo amigo")
+# command = ""
+# started = False
+# while True:
+#         command = input("> ").lower()
+#         if command == "start":
+#                 if started:
+#                         print("car already started")
+#                 else:
+#                         started = True
+#                         print("Car started...")
+#         elif command == "stop":
+#                 if not started: 
+#                         print("Car already stoped")
+#                 else:
+#                         started = False
+#                         print("Car stoped...")        
+#         elif command == "help":
+#                 print("help menu")
+#         elif command == "quit":
+#                 break
+#         else:
+#                 print("No comprendo amigo")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 24
+# For Loops
+# ---------------------------------------------------------------------------------------------------------------
+
+# # Simple loop for every number od string:
+# for item in "Python":
+#         print(item)
+
+# # Simlpe loop for list of strings:
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+
+# # Simple loop[ for range 5 (5 not included):
+# for item in range(5):
+#         print(item)
+
+# # Simple loop[ for range from 5 to 10 (10 not included):
+# for item in range(5, 10):
+#         print(item)
+
+# # Simple loop[ for range from 5 to 10 with step 2(10 not included):
+# for item in range(5, 10, 2):
+#         print(item)
+
+# --------------------------------------------------------------------------------------------------- 2019 11 24
+# For Loops excercise
+# ---------------------------------------------------------------------------------------------------------------
+
+# calculate basket shop total price
+
+# prices = [10, 20, 30]
+# total = 0
+# for basket in prices:
+#         total += basket # 0+10 then 10+20; then 30+30;  total = total + basket
+# print(f"Total: {total}")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 24
+# Nested Loops
+# ---------------------------------------------------------------------------------------------------------------
