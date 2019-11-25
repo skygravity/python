@@ -409,3 +409,60 @@
 # --------------------------------------------------------------------------------------------------- 2019 11 25
 # Lists 1:56:04
 # ---------------------------------------------------------------------------------------------------------------
+
+#  list example -> [1, 2, 3] or [apple, orange, banana]
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# print(names)
+# # result -> ['John', 'Bob', 'Sara', 'Vicky']
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# print(names[0])
+# # result -> John
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# print(names[-1])
+# # result last index in list -> Vicky
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# print(names[-2])
+# # result second last index in list -> Sara
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# print(names[2:])
+# # result from two index to the end in list -> ['Sara', 'Vicky']
+
+# names = ['John', 'Bob', 'Sara', 'Vicky']
+# for x in names:
+#         print(x)
+# # result ->
+# # John
+# # Bob
+# # Sara
+# # Vicky
+
+# #  we can change values of list
+# names[0] = 'Jonas'
+# print(names)
+
+# names[4] = 'Nick'
+# print(names)
+# IndexError: list assignment index out of range
+
+# --------------------------------------------------------------------------------------------------- 2019 11 25
+# Lists  excercise 1:59:04
+# ---------------------------------------------------------------------------------------------------------------
+
+# write a program to find the largest number in a list [3,6,2,8,4,9,10]
+
+numbers_list = [3, 6, 2, 8, 4, 9, 10]
+max_number = numbers_list[0] # we assume that number 0 in list (3) is largest, then if we found bigger one we need to reset it to that number
+
+for number in numbers_list:
+        if number > max_number:
+                max_number = number
+print(max_number)
+
+# --------------------------------------------------------------------------------------------------- 2019 11 25
+# 2D list
+# ---------------------------------------------------------------------------------------------------------------
