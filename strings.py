@@ -565,3 +565,49 @@ numbers = [5, 2, 1, 7 , 4]
 # x, y, z = coordinates # same as above
 # print(x)
 
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Dictionaries
+# ---------------------------------------------------------------------------------------------------------------
+
+#  Key value pairs such as:
+# name: 'John Smith'
+# email: 'john@gmail.com'
+# phone: 1234
+# all this we can store in key value dictionary pairs
+
+# customer = {
+#         "name": "John Smith",
+#         "age": 30,
+#         "is_verified": True
+# }
+# # print(customer["name"])
+# print(customer.get("name")) # better use get method
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Dictionaries example
+# ---------------------------------------------------------------------------------------------------------------
+
+# show number in words
+
+# phone = input("Phone: ")
+# digits_mapping = {
+#         "0": "Nulis",
+#         "1": "Vienas",
+#         "2": "Du",
+#         "3": "Trys",
+#         "4": "Keturi",
+#         "5": "Penki",
+#         "6": "Sesi",
+#         "7": "Septyni",
+#         "8": "Astuoni",
+#         "9": "Devyni"
+# }
+
+# output = ""
+# for ch in phone:
+#     output += digits_mapping.get(ch, "!")  + " "
+# print(output)
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Dictionaries example
+# ---------------------------------------------------------------------------------------------------------------
