@@ -455,14 +455,98 @@
 
 # write a program to find the largest number in a list [3,6,2,8,4,9,10]
 
-numbers_list = [3, 6, 2, 8, 4, 9, 10]
-max_number = numbers_list[0] # we assume that number 0 in list (3) is largest, then if we found bigger one we need to reset it to that number
+# numbers_list = [3, 6, 2, 8, 4, 9, 10]
+# max_number = numbers_list[0] # we assume that number 0 in list (3) is largest, then if we found bigger one we need to reset it to that number
 
-for number in numbers_list:
-        if number > max_number:
-                max_number = number
-print(max_number)
+# for number in numbers_list:
+#         if number > max_number:
+#                 max_number = number
+# print(max_number)
 
 # --------------------------------------------------------------------------------------------------- 2019 11 25
 # 2D list
 # ---------------------------------------------------------------------------------------------------------------
+
+# [
+#         123
+#         456
+#         789
+# ]
+
+# matrix = [
+#         [1, 2, 3],
+#         [4, 5, 6],
+#         [7, 8, 9]
+# ]
+# print(matrix[0][1]) # result -> 2 ; First line [0] and second [1] number in that line - 2;
+
+# we can change it to 20 now
+
+# matrix[0][1] = 20
+# print(matrix[0][1])
+
+# for row in matrix:
+#         for item in row:
+#                 print
+
+# --------------------------------------------------------------------------------------------------- 2019 11 26
+# List Methods or List Functions
+# ---------------------------------------------------------------------------------------------------------------
+
+numbers = [5, 2, 1, 7 , 4]
+# numbers.append(20)
+# print(numbers)
+# # number 20 added to the list -> [5, 2, 1, 7, 4, 20]
+
+# numbers.insert(2, 69)
+# print(numbers)
+# # number 69 added to the indexed list after 0-1 -> [5, 2, 69, 1, 7, 4, 20]
+
+# numbers.remove(2)
+# print(numbers)
+# # removes number 2 from the list -> [5, 69, 1, 7, 4, 20], but it removes only one 2 from list?
+
+# numbers.pop()
+# print(numbers)
+# # removes last number from the list
+
+# print(numbers.index(5))
+# # finds index of sutch number -> result 0; if number not in the list - we get error ValueError: 50 is not in list
+
+# print(50 in numbers)
+# # another way to find number in the list -> result 0; if number not in the list - we get boolean value - False
+
+# print(numbers.count(2))
+# # counts accurance of number two -> result 1
+
+# print(numbers.sort())
+# # result -> None; None represents object - absence of value
+
+# numbers.sort()
+# numbers.reverse()
+# numbers_two = numbers.copy()
+# print(numbers_two)
+# print(numbers)
+
+# numbers.clear()
+# print(numbers)
+# clears all list items -> []
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# List Methods or List Functions 2:10:43
+# ---------------------------------------------------------------------------------------------------------------
+
+# remove duplicates
+
+# numbers = [2, 2, 4, 5, 6, 3, 4, 6, 1]
+# uniques = [] #if we dont have that number in first list then we will add that number to this list
+# for number in numbers: #
+#         if number not in uniques: # we need to check if we have this number in the second list
+#                 uniques.append(number)
+# print(uniques)
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Tuples
+# ---------------------------------------------------------------------------------------------------------------
+
+
