@@ -656,12 +656,16 @@ numbers = [5, 2, 1, 7 , 4]
 # greet_user("Mary")
 # print("Finish")
 
-def greet_user(f_name, l_name): #name is parameters
-        # name = "John"
-        print(f"Hi there {f_name} {l_name}")
-        print("Welcome on board")
+# def greet_user(f_name, l_name): #name is parameters
+#         # name = "John"
+#         print(f"Hi there {f_name} {l_name}")
+#         print("Welcome on board")
 
 
-print("Start")
-greet_user("John", "Seena")
-print("Finish")
+# print("Start")
+# greet_user("John", "Seena")
+# print("Finish")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Keyword arguments
+# ---------------------------------------------------------------------------------------------------------------
