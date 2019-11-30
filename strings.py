@@ -608,6 +608,60 @@ numbers = [5, 2, 1, 7 , 4]
 #     output += digits_mapping.get(ch, "!")  + " "
 # print(output)
 
+# message = input("> ")
+# words = message.split(' ')
+# emojis = {
+#         ":)": "happy",
+#         ":(": "sad",
+# }
+# output = ""
+# for word in words:
+#         output += emojis.get(word, word) + " "
+# print(output)
+
 # --------------------------------------------------------------------------------------------------- 2019 11 27
-# Dictionaries example
+# Functions
 # ---------------------------------------------------------------------------------------------------------------
+
+# Function is chunks of tasks
+
+# def greet_user():
+#         print("Hi there")
+#         print("Welcome on board")
+
+
+# print("Start")
+# greet_user()
+# print("Finish")
+
+# Start
+# Hi there
+# Welcome on board
+# Finish
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Parameters
+# ---------------------------------------------------------------------------------------------------------------
+
+# How to pass information into functions
+
+# def greet_user(name): #name is parameters
+#         # name = "John"
+#         print(f"Hi there {name}")
+#         print("Welcome on board")
+
+
+# print("Start")
+# greet_user("John") #John is argument
+# greet_user("Mary")
+# print("Finish")
+
+def greet_user(f_name, l_name): #name is parameters
+        # name = "John"
+        print(f"Hi there {f_name} {l_name}")
+        print("Welcome on board")
+
+
+print("Start")
+greet_user("John", "Seena")
+print("Finish")
