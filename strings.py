@@ -669,3 +669,31 @@ numbers = [5, 2, 1, 7 , 4]
 # --------------------------------------------------------------------------------------------------- 2019 11 27
 # Keyword arguments
 # ---------------------------------------------------------------------------------------------------------------
+
+# def calc_cost(total, shipping, discount):
+        # total = 50,
+        # shipping = 20,
+        # discount = 0.1
+
+# def greet_user(f_name, l_name): #name is parameters
+#         # name = "John"
+#         print(f"Hi there {f_name} {l_name}")
+#         print("Welcome on board")
+
+
+# print("Start")
+# greet_user(l_name="John", f_name="Seena")
+# calc_cost(50, 5, 0.1) # hard to say what these represent without keyword arguments
+# calc_cost(total=50, shipping=5, discount=0.1) # easyto say what these represent without keyword arguments
+# print("Finish")
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Return Statements
+# ---------------------------------------------------------------------------------------------------------------
+
+# def square(number):
+#         return number * number
+
+# result = square(3)
+# print(result)
+
