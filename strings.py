@@ -697,3 +697,27 @@ numbers = [5, 2, 1, 7 , 4]
 # result = square(3)
 # print(result)
 
+# def emoji_converter(message):
+#         words = message.split(" ")
+#         emojis = {
+#                 ":)": "happy",
+#                 ":(": "unhappy"
+#         }
+#         output = ""
+#         for word in words:
+#                 output += emojis.get(word, word) + " "
+#         return output
+
+
+# message = input(">")
+# print(emoji_converter(message))
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Exeptions
+# ---------------------------------------------------------------------------------------------------------------
+
+try:
+        age = int(input('Age: '))
+        print(age)
+except ValueError:
+        print('Invalid value')
