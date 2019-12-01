@@ -493,7 +493,7 @@
 # List Methods or List Functions
 # ---------------------------------------------------------------------------------------------------------------
 
-numbers = [5, 2, 1, 7 , 4]
+# numbers = [5, 2, 1, 7 , 4]
 # numbers.append(20)
 # print(numbers)
 # # number 20 added to the list -> [5, 2, 1, 7, 4, 20]
@@ -780,22 +780,45 @@ numbers = [5, 2, 1, 7 , 4]
 # point.x = 11
 # print(point.x)
 
-class Person:
-        def __init__(self, name):
-                self.name = name
+# class Person:
+#         def __init__(self, name):
+#                 self.name = name
                 
-        def talk(self):                
-                print(f"Hi, Im {self.name}")
+#         def talk(self):                
+#                 print(f"Hi, Im {self.name}")
 
 
-john = Person("John")
-# print(john.name)
-john.talk()
+# john = Person("John")
+# # print(john.name)
+# john.talk()
 
-bob = Person("Bob")
-bob.talk()
+# bob = Person("Bob")
+# bob.talk()
 
 # --------------------------------------------------------------------------------------------------- 2019 12 01
-# Inheritance
+# Inheritance 3:14:54
+# ---------------------------------------------------------------------------------------------------------------
+
+# class Mammal:
+#         def walk(self):
+#                 print("walk")
+
+# class Dog(Mammal):
+#         def bark(self):
+#                 print("bark")
+
+
+# class Cat(Mammal):
+#         def meu(self):
+#                 print("meau")
+
+
+# dog1 = Dog()
+# dog1.walk()
+# dog1.bark()
+
+
+# --------------------------------------------------------------------------------------------------- 2019 12 01
+# Modules 3:19:53
 # ---------------------------------------------------------------------------------------------------------------
 
