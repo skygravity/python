@@ -822,3 +822,41 @@
 # Modules 3:19:53
 # ---------------------------------------------------------------------------------------------------------------
 
+
+# import converters
+# print(converters.kg_to_lbs(85))
+# # or if we dont want to import all you can specify
+# from converters import kg_to_lbs
+# print(kg_to_lbs(100))
+
+
+
+# def lbs_to_kg(weight):
+#         return weight * 0.45
+
+
+# def kg_to_lbs(weight):
+#         return weight / 0.45
+
+# --------------------------------------------------------------------------------------------------- 2019 12 01
+# Modules excercise 3:24:53
+# ---------------------------------------------------------------------------------------------------------------
+
+# numbers = [10, 3, 6, 2]
+# max = numbers[0]
+# for number in numbers:
+#         if number > max:
+#                 max = number
+# print(max)
+
+# write function 
+#take Listreturn largest number
+# create Modules
+# find_max()
+# utils
+
+from utils import find_max
+
+numbers = [10, 5, 8, 47, 6, 5, 1]
+maximum = find_max(numbers)
+print(maximum)
