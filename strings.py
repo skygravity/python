@@ -713,11 +713,53 @@ numbers = [5, 2, 1, 7 , 4]
 # print(emoji_converter(message))
 
 # --------------------------------------------------------------------------------------------------- 2019 11 27
-# Exeptions
+# Exceptions
 # ---------------------------------------------------------------------------------------------------------------
 
-try:
-        age = int(input('Age: '))
-        print(age)
-except ValueError:
-        print('Invalid value')
+# try:
+#         age = int(input('Age: '))
+#         print(age)
+# except ValueError:
+#         print('Invalid value')
+
+# try:
+#         debt = int(input('Debt: '))
+#         income = int(input("income: "))
+#         dti = income / debt
+#         print(dti)
+# except ZeroDivisionError:
+#         print('Age cannot be zero')
+# except ValueError:
+#         print('Invalid value')
+
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Comments
+# ---------------------------------------------------------------------------------------------------------------
+
+# just like that
+# explain whys and hows
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Classes
+# ---------------------------------------------------------------------------------------------------------------
+
+# for class always use first capital letter or CammelCase
+# class Point:                    #-> define new types
+#         def move(self):         #-> methods we define in the body of the class
+#                 print("move")
+
+#         def draw(self):
+#                 print("draw")
+
+
+# point1 = Point()
+# point1.x = 10 # attributes we can set anywhere in our programs
+# point1.y = 20
+# print(point1.x)
+# point1.move()
+
+
+# --------------------------------------------------------------------------------------------------- 2019 11 27
+# Classes
+# ---------------------------------------------------------------------------------------------------------------
